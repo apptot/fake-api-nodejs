@@ -172,6 +172,21 @@
       "password": "123456",
       "createdAt": 1695759701128,
       "modifiedAt": 1695759701128
+    },
+    {
+      "id": 12,
+      "firstName": "test1",
+      "lastName": "",
+      "username": "test1",
+      "email": "test1@gmail.com",
+      "password": "123456",
+      "avatar": "https://robohash.org/eaquequasincidunt.png?size=50x50&set=set1",
+      "gender": "Genderfluid",
+      "phone": "933-658-1213",
+      "birthday": "1994-03-23",
+      "status": true,
+      "createdAt": 1696865584627,
+      "modifiedAt": 1696865584627
     }
   ],
   "products": [

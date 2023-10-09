@@ -1,0 +1,47 @@
+### GET
+// Get single user by id
+GET http://localhost:8000/products
+Content-Type: application/json
+
+### login
+// Login account
+# @name login
+POST  http://localhost:8000/login
+Content-Type: application/json
+
+{
+  "username": "test1",
+  "password": "123456" 
+}
+### Get me
+@token = {{login.response.body.accessToken}}
+
+### GET
+// Get all the users
+GET http://localhost:8000/users
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+
+### POST
+// Create a new user
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+    "firstName": "test1",
+    "lastName": "",
+    "username": "test1",
+    "email": "test1@gmail.com",
+    "password": "123456",
+    "avatar": "https://robohash.org/eaquequasincidunt.png?size=50x50&set=set1",
+    "gender": "Genderfluid",
+    "phone": "933-658-1213",
+    "birthday": "1994-03-23",
+    "status": true
+  }
+
+
+
+
+
