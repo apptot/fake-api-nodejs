@@ -1,5 +1,5 @@
 ### GET
-// Get single user by id
+// Get all products
 GET http://localhost:8000/products
 Content-Type: application/json
 
@@ -10,7 +10,7 @@ POST  http://localhost:8000/login
 Content-Type: application/json
 
 {
-  "username": "test1",
+  "email": "demo@gmail.com",
   "password": "123456" 
 }
 ### Get me
@@ -29,10 +29,10 @@ POST http://localhost:8000/register
 Content-Type: application/json
 
 {
-    "firstName": "test1",
+    "firstName": "demo",
     "lastName": "",
-    "username": "test1",
-    "email": "test1@gmail.com",
+    "username": "demo",
+    "email": "demo@gmail.com",
     "password": "123456",
     "avatar": "https://robohash.org/eaquequasincidunt.png?size=50x50&set=set1",
     "gender": "Genderfluid",
