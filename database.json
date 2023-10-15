@@ -13,7 +13,7 @@
       "PATCH",
       "DELETE"
     ],
-    "vehicles": [
+    "services": [
       "POST",
       "PUT",
       "PATCH",
@@ -312,34 +312,34 @@
       "modifiedAt": 1615146960000
     }
   ],
-  "vehicles":[
+  "services":[
     {
       "title": "JuberGo",
-      "image": "/images/juberCarBooking/juber_go.png",
-      "rate": "10",
+      "image": "images/juberCarBooking/juber_go.png",
+      "rate": 10,
       "isBest": true,
       "subTitle": "Best Save"     
     },
     {
       "title": "Jubercar",
-      "image": "/images/juberCarBooking/juber_car.png",
-      "rate": "15",
+      "image": "images/juberCarBooking/juber_car.png",
+      "rate": 15,
       "isBest": false,
       "subTitle": "4 seats"
     
     },
     {
       "title": "Juberbike",
-      "image": "/images/juberCarBooking/juber_bike.png",
-      "rate": "5",
+      "image": "images/juberCarBooking/juber_bike.png",
+      "rate": 5,
       "isBest": false,
       "subTitle": "Pay Less"
     
     },
     {
       "title": "Jubercar7",
-      "image": "/images/juberCarBooking/juber_car7.png",
-      "rate": "20.00",
+      "image": "images/juberCarBooking/juber_car7.png",
+      "rate": 20,
       "isBest": false,
       "subTitle": "7 seats"     
     }
