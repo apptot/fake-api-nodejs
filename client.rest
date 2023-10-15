@@ -1,4 +1,9 @@
 ### GET
+// Get all vehicles
+GET http://localhost:8000/vehicles
+Content-Type: application/json
+
+### GET
 // Get all products
 GET http://localhost:8000/products
 Content-Type: application/json

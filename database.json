@@ -12,6 +12,12 @@
       "PUT",
       "PATCH",
       "DELETE"
+    ],
+    "vehicles": [
+      "POST",
+      "PUT",
+      "PATCH",
+      "DELETE"
     ]
   },
   "users": [
@@ -304,6 +310,38 @@
       "status": false,
       "createdAt": 1615146960000,
       "modifiedAt": 1615146960000
+    }
+  ],
+  "vehicles":[
+    {
+      "title": "JuberGo",
+      "image": "/images/juberCarBooking/juber_go.png",
+      "rate": "10",
+      "isBest": true,
+      "subTitle": "Best Save"     
+    },
+    {
+      "title": "Jubercar",
+      "image": "/images/juberCarBooking/juber_car.png",
+      "rate": "15",
+      "isBest": false,
+      "subTitle": "4 seats"
+    
+    },
+    {
+      "title": "Juberbike",
+      "image": "/images/juberCarBooking/juber_bike.png",
+      "rate": "5",
+      "isBest": false,
+      "subTitle": "Pay Less"
+    
+    },
+    {
+      "title": "Jubercar7",
+      "image": "/images/juberCarBooking/juber_car7.png",
+      "rate": "20.00",
+      "isBest": false,
+      "subTitle": "7 seats"     
     }
   ]
 }
