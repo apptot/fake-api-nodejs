@@ -1,24 +1,8 @@
 {
   "protectedResources": {
-    "users": [
-      "GET",
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ],
-    "products": [
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ],
-    "services": [
-      "POST",
-      "PUT",
-      "PATCH",
-      "DELETE"
-    ]
+    "users": ["GET", "POST", "PUT", "PATCH", "DELETE"],
+    "products": ["POST", "PUT", "PATCH", "DELETE"],
+    "services": ["POST", "PUT", "PATCH", "DELETE"]
   },
   "users": [
     {
@@ -312,36 +296,42 @@
       "modifiedAt": 1615146960000
     }
   ],
-  "services":[
+  "services": [
     {
       "title": "JuberGo",
       "image": "images/juberCarBooking/juber_go.png",
       "rate": 10,
       "isBest": true,
-      "subTitle": "Best Save"     
+      "subTitle": "Best Save",
+      "time": "",
+      "cost": "0"
     },
     {
       "title": "Jubercar",
       "image": "images/juberCarBooking/juber_car.png",
       "rate": 15,
       "isBest": false,
-      "subTitle": "4 seats"
-    
+      "subTitle": "4 seats",
+      "time": "",
+      "cost": "0"
     },
     {
       "title": "Juberbike",
       "image": "images/juberCarBooking/juber_bike.png",
       "rate": 5,
       "isBest": false,
-      "subTitle": "Pay Less"
-    
+      "subTitle": "Pay Less",
+      "time": "",
+      "cost": "0"
     },
     {
       "title": "Jubercar7",
       "image": "images/juberCarBooking/juber_car7.png",
       "rate": 20,
       "isBest": false,
-      "subTitle": "7 seats"     
+      "subTitle": "7 seats",
+      "time": "",
+      "cost": "0"
     }
   ]
 }
