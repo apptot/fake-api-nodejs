@@ -31,6 +31,8 @@ export const testHandler = (db, req, res) => {
 
 export const loginHandler = (db, req, res) => {
   const { username, email, password: pwd } = req.body;
+  console.log(email)
+  console.log(pwd)
 
   const user = db.data.users?.find(
     (u) => (u.username === username || u.email === email) && u.password === pwd
